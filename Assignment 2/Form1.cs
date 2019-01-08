@@ -25,7 +25,7 @@ namespace Assignment_2
                 double UserInput2 = double.Parse(textBox2.Text);
                 double UserInput3 = double.Parse(textBox3.Text);
                 double Answer = UserInput + UserInput2 + UserInput3;
-                label2.Text = Answer.ToString();
+                label2.Text = Answer.ToString("0.00");
 
             }
 
@@ -83,6 +83,44 @@ namespace Assignment_2
         private void label9_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                double UserInput = double.Parse(textBox6.Text);
+                double UserInput2 = double.Parse(textBox7.Text);
+                double Answer = UserInput + UserInput2;
+                label13.Text = Answer.ToString();
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Please Read Instuctions And Attempt Again, if further problems occur restart.");
+
+            }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            try
+            {
+                double UserInput = double.Parse(textBox8.Text);
+                double UserInput2 = double.Parse(textBox9.Text);
+                double UserInput3 = double.Parse(textBox10.Text);
+                double UserInput4 = double.Parse(textBox11.Text);
+                double Answer = UserInput + UserInput2 + UserInput3 + UserInput4;
+                label15.Text = Answer.ToString();
+
+            }
+
+            catch
+            {
+                MessageBox.Show("Please Read Instuctions And Attempt Again, if further problems occur restart.");
+
+            }
         }
     }
 }
