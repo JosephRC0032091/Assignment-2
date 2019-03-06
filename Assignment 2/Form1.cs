@@ -21,11 +21,11 @@ namespace Assignment_2
         {
             try
             {
-                double UserInput = double.Parse(textBox1.Text);
-                double UserInput2 = double.Parse(textBox2.Text);
-                double UserInput3 = double.Parse(textBox3.Text);
+                double UserInput = double.Parse(textBox1.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput2 = double.Parse(textBox2.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput3 = double.Parse(textBox3.Text);//This provides an input for the user to be able to type their desired values.
                 double Answer = UserInput + UserInput2 + UserInput3;
-                label2.Text = Answer.ToString("0.00");
+                label2.Text = Answer.ToString("0.00");//This text
 
             }
 
@@ -60,8 +60,8 @@ namespace Assignment_2
 
             try
             {
-                double Input = double.Parse(textBox4.Text);
-                double Input2 = double.Parse(textBox5.Text);
+                double Input = double.Parse(textBox4.Text);//This provides an input for the user to be able to type their desired values.
+                double Input2 = double.Parse(textBox5.Text);//This provides an input for the user to be able to type their desired values.
                 double Top = Input * Input2;
                 double Bottom = Input + Input2;
                 double Answer = Top / Bottom;
@@ -89,8 +89,8 @@ namespace Assignment_2
         {
             try
             {
-                double UserInput = double.Parse(textBox6.Text);
-                double UserInput2 = double.Parse(textBox7.Text);
+                double UserInput = double.Parse(textBox6.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput2 = double.Parse(textBox7.Text);//This provides an input for the user to be able to type their desired values.
                 double Answer = UserInput + UserInput2;
                 label13.Text = Answer.ToString();
 
@@ -107,11 +107,11 @@ namespace Assignment_2
         {
             try
             {
-                double UserInput = double.Parse(textBox8.Text);
-                double UserInput2 = double.Parse(textBox9.Text);
-                double UserInput3 = double.Parse(textBox10.Text);
-                double UserInput4 = double.Parse(textBox11.Text);
-                double Answer = UserInput + UserInput2 + UserInput3 + UserInput4;
+                double UserInput = double.Parse(textBox8.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput2 = double.Parse(textBox9.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput3 = double.Parse(textBox10.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput4 = double.Parse(textBox11.Text);//This provides an input for the user to be able to type their desired values.
+                double Answer = UserInput + UserInput2 + UserInput3 + UserInput4;//This section of the code performs the set equation.
                 label15.Text = Answer.ToString();
 
             }
@@ -127,10 +127,10 @@ namespace Assignment_2
         {
             try
             {
-                double UserInput = double.Parse(textBox12.Text);
-                double UserInput2 = double.Parse(textBox13.Text);
-                double UserInput3 = double.Parse(textBox14.Text);
-                double Answer = 1.0 / (1.0 / UserInput + 1.0 / UserInput2 + 1.0 / UserInput3);
+                double UserInput = double.Parse(textBox12.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput2 = double.Parse(textBox13.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput3 = double.Parse(textBox14.Text);//This provides an input for the user to be able to type their desired values.
+                double Answer = 1.0 / (1.0 / UserInput + 1.0 / UserInput2 + 1.0 / UserInput3);//This section of the code performs the set equation.
                 label17.Text = Answer.ToString();
             }
             catch
@@ -143,11 +143,11 @@ namespace Assignment_2
         {
             try
             {
-                double UserInput = double.Parse(textBox15.Text);
-                double UserInput2 = double.Parse(textBox16.Text);
-                double UserInput3 = double.Parse(textBox17.Text);
-                double UserInput4 = double.Parse(textBox18.Text);
-                double Answer = 1.0 / (1.0 / UserInput + 1.0 / UserInput2 + 1.0 / UserInput3 + 1.0 / UserInput4);
+                double UserInput = double.Parse(textBox15.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput2 = double.Parse(textBox16.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput3 = double.Parse(textBox17.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput4 = double.Parse(textBox18.Text);//This provides an input for the user to be able to type their desired values.
+                double Answer = 1.0 / (1.0 / UserInput + 1.0 / UserInput2 + 1.0 / UserInput3 + 1.0 / UserInput4);//This section of the code performs the set equation.
                 label19.Text = Answer.ToString();
             }
             catch
@@ -160,13 +160,13 @@ namespace Assignment_2
         {
             try
             {
-                double UserInput = double.Parse(textBox19.Text);
-                double UserInput2 = double.Parse(textBox20.Text);
-                double UserInput3 = double.Parse(textBox21.Text);
-                double UserInput4 = double.Parse(textBox22.Text);
-                double UserInput5 = double.Parse(textBox23.Text);
-                
-                double Answer = UserInput + UserInput2 + UserInput3 + UserInput4 + UserInput5;
+                double UserInput = double.Parse(textBox19.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput2 = double.Parse(textBox20.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput3 = double.Parse(textBox21.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput4 = double.Parse(textBox22.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput5 = double.Parse(textBox23.Text);//This provides an input for the user to be able to type their desired values.
+
+                double Answer = UserInput + UserInput2 + UserInput3 + UserInput4 + UserInput5;//This section of the code performs the set equation.
                 label21.Text = Answer.ToString();
 
             }
@@ -180,14 +180,14 @@ namespace Assignment_2
 
         private void button6_Click(object sender, EventArgs e)
         {
-            try
+            try// I have implemented a 
             {
-                double UserInput = double.Parse(textBox24.Text);
-                double UserInput2 = double.Parse(textBox25.Text);
-                double UserInput3 = double.Parse(textBox26.Text);
-                double UserInput4 = double.Parse(textBox27.Text);
-                double UserInput5 = double.Parse(textBox28.Text);
-                double Answer = 1.0 / (1.0 / UserInput + 1.0 / UserInput2 + 1.0 / UserInput3 + 1.0 / UserInput4 + 1.0 / UserInput5);
+                double UserInput = double.Parse(textBox24.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput2 = double.Parse(textBox25.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput3 = double.Parse(textBox26.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput4 = double.Parse(textBox27.Text);//This provides an input for the user to be able to type their desired values.
+                double UserInput5 = double.Parse(textBox28.Text);//This provides an input for the user to be able to type their desired values.
+                double Answer = 1.0 / (1.0 / UserInput + 1.0 / UserInput2 + 1.0 / UserInput3 + 1.0 / UserInput4 + 1.0 / UserInput5);//This section of the code performs the set equation.
                 label23.Text = Answer.ToString();
             }
             catch
